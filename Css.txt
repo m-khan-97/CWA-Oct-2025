@@ -1,0 +1,64 @@
+/* app/globals.css */
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #c0c0ff;
+}
+
+.ht-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+.ht-logo {
+  height: 60px;
+}
+
+.ht-tagline {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.ht-layout {
+  display: flex;
+  min-height: calc(100vh - 80px);
+}
+
+.ht-nav {
+  width: 200px;
+  background: #000;
+  color: white;
+  padding: 1rem;
+}
+
+.ht-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.ht-nav a:hover {
+  text-decoration: underline;
+}
+
+.ht-main {
+  flex: 1;
+  padding: 1rem;
+  background: #f5f5ff;
+}
+
+/* Simple card style for content */
+.ht-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
